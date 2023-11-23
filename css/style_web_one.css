@@ -111,3 +111,115 @@
   color: white;
 }
 /*fin banner*/
+
+/*inicia seccion 2 */
+
+.seccion-2{
+  background-color: rgb(203, 231, 196);
+  width: 70%;
+  height: 100vh; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+/* inicia block left */
+.block-left{
+  width: 60%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.title-left{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-left h2{
+  font-size: 28px;
+}
+
+.title-left h3{
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(114, 114, 114);
+}
+
+.img-left{
+  width: 100%;
+  margin: 30px 0;
+}
+
+.img-left img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.paragraph-left{
+  font-size: 17px;
+}
+/* finaliza block left */
+/*--------------------------------*/
+/* inicia block right */
+
+.block-right{
+ width: 40%;
+ height: 100%;
+ padding: 0 3%;
+}
+
+.title-right{
+ text-align: center;
+}
+
+.title-right h3{
+  font-size: 20px;
+}
+
+.news-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin: 30px 0;
+}
+
+.news-img{
+  width: 50%;
+}
+
+.news-img img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.news-texts{
+  width: 50%;
+  margin: 0 10px;
+}
+
+.news-texts h4{
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.news-texts p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+.news-texts a{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* finaliza block right */
+/*finaliza seccion 2 */
