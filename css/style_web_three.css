@@ -394,5 +394,45 @@ body{
     gap: 1.5rem;
   }
 
+  /*sponsor*/
+  
+  .sponsor{
+    text-align: start;
+  }
 
+  .sponsor__main{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .sponsor__figure{
+    width: 45%;
+  }
+  
+  .sponsor__img{
+    max-width: 400px;
+  }
+  
+  .sponsor__texts{
+    width: 55%;
+    place-content: center;
+    margin-bottom: 0;
+  }
+  
+  .sponsor__cta{
+    justify-self: start;
+  }
+  
+  /* statistics */
+  
+  .statistics__title{
+    font-size: 4.5rem;
+  }
+  
+  /* footer */
+  
+  .footer{
+    text-align: center;
+  }
 }
